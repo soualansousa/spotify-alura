@@ -1,29 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
     <link rel="icon" href="assets/icons/favicon.png">
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="sidebar">
-        <nav>
-            <a href="">
-                <img src="assets/icons/logo-spotify.png" alt="Logo Spotify">
-            </a>
+        <nav class="sidebar_navigation">
+            <div class="container_logo">
+                <div>
+                    <a href="">
+                        <img src="assets/icons/logo-spotify.png" alt="Logo Spotify">
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container_logo">
+                <div class="library_playlist_container">
+                    <div>
+                        <header class="library_container">
+                            <div class="library library_content">
+                                <div>
+                                    <button type="button">
+                                        <a href="">
+                                            <span class="fa fa-book"></span>
+                                            <span>Sua Biblioteca</span>
+                                        </a>
+                                    </button>
+                                </div>
+                                <a class="plus" href="">
+                                    <span class="fa fa-plus"></span>
+                                </a>
+                            </div>
+                        </header>
+                    </div>
+                    <section class="library_playlist">
+                        <div>
+                            <p>Crie sua primeira playlist</p>
+                            <p>É fácil, vamos te ajudar.</p>
+                        </div>
+                        <div>
+                            <button>
+                                Criar playlist
+                            </button>
+                        </div>
+                    </section>
+                </div>
+                <div>
+                    <div class="container_cookies">
+                        <a class="content_cookies" href="">Cookies</a>
+                    </div>
+                    <div class="container_languages">
+                        <button class="content_languages" href="">
+                            <span class="fa fa-globe"></span>
+                            Português do Brasil
+                        </button>
+                    </div>
+                </div>
+            </div>
         </nav>
     </div>
-    <div>
-        <ul>
-            <ui class="fa fa-search">abc</ui>
-            <ui class="fa fa-home">dfg</ui>
-        </ul>
+    <div class="footer">
+        <footer>
+            <div class="container_footer">
+                <div class="content_footer">
+                    <p>Testar o Premium de graça</p>
+                    <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+                </div>
+                <button>
+                    <p>Inscreva-se grátis</p>
+                </button>
+            </div>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
